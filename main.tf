@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "lambda_bucket" {
   acl    = "private"
 
   versioning {
-      enabled = true
+      enabled = false
   }
 }
 
